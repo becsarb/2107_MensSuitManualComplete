@@ -1,0 +1,614 @@
+/**
+ * User: u029337
+ * Date: 5/1/13
+ * Time: 4:17 PM
+ * Description:  Men's Suiting Manual Complete
+ */
+
+#Mens2013SuitManualComplete {
+    position: relative;
+    height: 479px;
+    width: 743px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+#Mens2013Intro {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+div.Mens2013ToDressShirtsHover {
+    position: absolute;
+    left: 252px;
+    top: 259px;
+    width: 188px;
+    height: 40px;
+    background-position: 1px -30px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer
+}
+
+div.Mens2013DressShirtsIMAHover {
+    position: absolute;
+    left: 252px;
+    top: 259px;
+    width: 188px;
+    height: 40px;
+    background-position: 1px -30px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer
+}
+
+div.Mens2013ToAccessoriesHover {
+    position: absolute;
+    left: 286px;
+    top: 422px;
+    width: 142px;
+    height: 41px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -94px;
+    cursor: pointer
+}
+
+div.Mens2013AccessoriesIMAHover {
+    position: absolute;
+    left: 286px;
+    top: 422px;
+    width: 142px;
+    height: 41px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -94px;
+    cursor: pointer
+}
+
+div.Mens2013ToSuitsHover {
+    position: absolute;
+    left: 441px;
+    top: 375px;
+    width: 167px;
+    height: 41px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -158px;
+    cursor: pointer
+}
+
+div.Mens2013SuitsIMAHover {
+    position: absolute;
+    left: 441px;
+    top: 375px;
+    width: 167px;
+    height: 41px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -158px;
+    cursor: pointer
+}
+
+div.Mens2013ToTiesHover {
+    position: absolute;
+    left: 551px;
+    top: 308px;
+    width: 145px;
+    height: 41px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -218px;
+    cursor: pointer
+}
+
+div.Mens2013TiesIMAHover {
+    position: absolute;
+    left: 551px;
+    top: 308px;
+    width: 145px;
+    height: 41px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -218px;
+    cursor: pointer
+}
+
+div.IntroRightArrowHover, div.STFRightArrowHover, div.SuitStyleRightArrowHover, div.DSRightArrowHover, div.DSMatchRightArrowHover, div.TiesRightArrowHover, div.AccesRightArrowHover {
+    position: absolute;
+    left: 701px;
+    top: 223px;
+    width: 293px;
+    height: 35px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -281px;
+    cursor: pointer
+}
+
+div.Mens2013FacebookHover {
+    position: absolute;
+    left: 440px;
+    top: 426px;
+    width: 16px;
+    height: 16px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -334px;
+    cursor: pointer
+}
+
+div.Mens2013TwitterHover {
+    position: absolute;
+    left: 460px;
+    top: 426px;
+    width: 16px;
+    height: 16px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -368px;
+    cursor: pointer
+}
+
+div.Mens2013PinterestHover {
+    position: absolute;
+    left: 480px;
+    top: 426px;
+    width: 16px;
+    height: 16px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -400px;
+    cursor: pointer
+}
+
+#Mens2013SuitsTheFit, #Mens2013SuitsTheStyle, #Mens2013DSTheStyle, #Mens2013DSMatch, #Mens2013Ties, #Mens2013Acces {
+    position: absolute;
+    left: 962px;
+    top: 0px;
+    display: none;
+}
+
+
+div.STFFacebookHover, div.SuitStyleFacebookHover, div.DSFacebookHover, div.DSMatchFacebookHover, div.TiesFacebookHover, div.AccesFacebookHover {
+    position: absolute;
+    left: 28px;
+    top: 7px;
+    width: 16px;
+    height: 16px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -334px;
+    cursor: pointer
+}
+
+div.STFTwitterHover, div.SuitStyleTwitterHover, div.DSTwitterHover, div.DSMatchTwitterHover, div.TiesTwitterHover, div.AccesTwitterHover {
+    position: absolute;
+    left: 48px;
+    top: 7px;
+    width: 16px;
+    height: 16px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -368px;
+    cursor: pointer
+}
+
+div.STFPinterestHover, div.SuitStylePinterestHover, div.DSPinterestHover, div.DSMatchPinterestHover, div.TiesPinterestHover, div.AccesPinterestHover {
+    position: absolute;
+    left: 68px;
+    top: 7px;
+    width: 16px;
+    height: 16px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -400px;
+    cursor: pointer
+}
+
+div.STFLeftArrowHover, div.SuitStyleLeftArrowHover, div.DSLeftArrowHover, div.DSMatchLeftArrowHover, div.TiesLeftArrowHover, div.AccesLeftArrowHover {
+    position: absolute;
+    left: 6px;
+    top: 224px;
+    width: 293px;
+    height: 35px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -434px;
+    cursor: pointer
+}
+
+div.SuitStyleC1Overlay
+{
+    position: absolute;
+    left: 39px;
+    top: 254px;
+    width: 115px;
+    height: 111px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -134px;
+    cursor: pointer
+}
+
+div.SuitStyleC2Overlay
+{
+    position: absolute;
+    left: 178px;
+    top: 254px;
+    width: 115px;
+    height: 122px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -265px;
+    cursor: pointer
+}
+
+div.SuitStyleC3Overlay
+{
+    position: absolute;
+    left: 323px;
+    top: 254px;
+    width: 115px;
+    height: 123px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -408px;
+    cursor: pointer
+}
+
+div.SuitStyleC4Overlay
+{
+    position: absolute;
+    left: 459px;
+    top: 254px;
+    width: 115px;
+    height: 110px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -551px;
+    cursor: pointer
+}
+
+div.SuitStyleC5Overlay
+{
+    position: absolute;
+    left: 577px;
+    top: 254px;
+    width: 115px;
+    height: 89px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -683px;
+    cursor: pointer
+}
+
+div.DS1SizeGuideOverlay
+{
+    position: absolute;
+    left: 0px;
+    top: 84px;
+    width: 742px;
+    height: 381px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -793px;
+    cursor: pointer
+}
+
+div.DS1SlimFitOverlay
+{
+    position: absolute;
+    left: 0px;
+    top: 84px;
+    width: 742px;
+    height: 381px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -1192px;
+    cursor: pointer
+}
+
+div.DS1ContemporaryFitOverlay
+{
+    position: absolute;
+    left: 0px;
+    top: 84px;
+    width: 742px;
+    height: 381px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -1592px;
+    cursor: pointer
+}
+
+div.DS1RegularFitOverlay
+{
+    position: absolute;
+    left: 0px;
+    top: 84px;
+    width: 742px;
+    height: 381px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -1992px;
+    cursor: pointer
+}
+
+div.AccesSockOverlay
+{
+    position: absolute;
+    left: 98px;
+    top: 334px;
+    width: 164px;
+    height: 101px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -2404px;
+    cursor: pointer
+}
+
+div.AccesCufflinksOverlay
+{
+    position: absolute;
+    left: 486px;
+    top: 46px;
+    width: 196px;
+    height: 100px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -2523px;
+    cursor: pointer
+}
+
+div.AccesBeltsOverlay
+{
+    position: absolute;
+    left: 522px;
+    top: 151px;
+    width: 170px;
+    height: 91px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -2643px;
+    cursor: pointer
+}
+
+div.AccesDressShoesOverlay
+{
+    position: absolute;
+    left: 502px;
+    top: 297px;
+    width: 165px;
+    height: 126px;
+    z-index: 9999;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: 0px -2754px;
+    cursor: pointer
+}
+
+#slot_machine{
+	display: none;
+	position: absolute;
+	left:0px;
+	top:0px;
+
+}
+
+#SlotsContainer{
+	position: absolute;
+	overflow:hidden;
+	left:68px;
+	top:137px;
+	width:600px;
+	height:237px;
+	z-index: 8100;
+}
+
+.slots {
+	position: relative;
+	overflow:hidden;
+	width:200px;
+	height:4000px;
+	float:left;
+}
+
+#SpinningImage1{
+	background-position:0px -5px;
+}
+#SpinningImage2{
+	background-position:0px -240px;
+}
+#SpinningImage3{
+	background-position:0px -475px;
+}
+#SpinningImage4{
+	background-position:0px -710px;
+}
+
+
+#SpinningImage5{
+	background-position:-205px -5px;
+}
+#SpinningImage6{
+	background-position:-205px -240px;
+}
+#SpinningImage7{
+	background-position:-205px -475px;
+}
+#SpinningImage8{
+	background-position:-205px -710px;
+}
+
+
+#SpinningImage9{
+	background-position:-408px -5px;
+}
+#SpinningImage10{
+	background-position:-408px -240px;
+}
+#SpinningImage11{
+	background-position:-408px -475px;
+}
+#SpinningImage12{
+	background-position:-408px -710px;
+}
+
+#SlotsDescriptionTitleA{
+	background-position:0px 0px;
+	position:absolute;
+	height:20px;
+    top:385px;
+    left:68px;
+    cursor: pointer;
+}
+
+#SlotsDescriptionTitleB{
+	background-position:-210px 0px;
+	position:absolute;
+	height:20px;
+    top:385px;
+    left:279px;
+    z-index: 8200;
+    cursor: pointer;
+}
+
+#SlotsDescriptionTitleC{
+	background-position:-430px 0px;
+	position:absolute;
+	height:20px;
+    top:385px;
+    left:482px;
+    z-index: 8200;
+    cursor: pointer;
+}
+
+
+#SlotsFullDescriptionA{
+	position:absolute;
+    top:410px;
+    left:68px;
+    z-index: 8200;
+}
+
+#SlotsFullDescriptionB{
+	position:absolute;
+    top:410px;
+    left:279px;
+    z-index: 8200;
+}
+
+#SlotsFullDescriptionC{
+	position:absolute;
+    top:410px;
+    left:482px;
+    z-index: 8200;
+}
+
+
+
+#FullDescription1{
+	background-position:0px -25px;
+}
+#FullDescription2{
+	background-position:0px -93px;
+}
+#FullDescription3{
+	background-position:0px -163px;
+}
+#FullDescription4{
+	background-position:0px -233px;
+}
+
+
+#FullDescription5{
+	background-position:-210px -25px;
+}
+#FullDescription6{
+	background-position:-210px -93px;
+}
+#FullDescription7{
+	background-position:-210px -163px;
+}
+#FullDescription8{
+	background-position:-210px -233px;
+}
+
+
+#FullDescription9{
+	background-position:-430px -25px;
+}
+#FullDescription10{
+	background-position:-430px -93px;
+}
+#FullDescription11{
+	background-position:-430px -163px;
+}
+#FullDescription12{
+	background-position:-430px -233px;
+}
+
